@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+    
+    Costruire un documento XML e inserire un blocco testuale (un frammento di codifice HTML) che non viene interpretato dal parser
+-->
+<body>
+    <htmlCode> 
+    <![CDATA[ 
+        <h1>Capitolo Primo</h1>
+        <h2>Sezione Seconda</h2> 
+    ]]> 
+    </htmlCode>
+</body>

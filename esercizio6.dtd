@@ -1,0 +1,25 @@
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+    
+    Definire un elemento root (TEI) e gli elementi figli (header, facsimile e text). Text è un mixed content con possibile elemento <seg>.
+    Definisco gli attributi di ciascun elemento...
+-->
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*>
+<!ELEMENT seg (#PCDATA)>
+<!ATTLIST header 
+    type CDATA #FIXED “intestazione” 
+    lang NMTOKEN #IMPLIED
+>
+<!ATTLIST facsimile
+    source CDATA #REQUIRED
+    ref IDREFS #IMPLIED
+>
+<!ATTLIST testo
+    id ID #REQUIRED
+    type CDATA #IMPLIED
+>

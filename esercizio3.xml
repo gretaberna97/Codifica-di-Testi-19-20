@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+    
+    Aprire il file xmlfirst.xml non ben formato presente nel repository github, validarlo con XMLlint, correggerlo, aggiungere un figlio ad un elemento, ed un fratello ad un elemento
+-->
+
+<!-- VERSIONE CORRETTA -->
+<text>
+    <!-- Aggiungo un elemento figlio <p> all'elemento <text> -->
+    <p> Il primo xml con validazione </p>
+    <!-- Aggiungo un fratello <p> all'elemento <p> -->
+    <p> 2. Il primo xml con validazione </p>
+</text>
+    <!-- Rimuovo l'elemento vuoto successivo
+<text />
+-->

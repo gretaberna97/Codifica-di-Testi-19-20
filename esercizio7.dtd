@@ -1,0 +1,11 @@
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Includere all’interno di un documento XML la dichiarazione del tipo, definire internamente gli elementi e gli attributi e validare. 
+    Inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare.
+    Creare un file esterno con estensione .dtd prima di includerlo nel prologo XML.
+-->
+<!ELEMENT text (p+) >
+<!ELEMENT p (#PCDATA)>

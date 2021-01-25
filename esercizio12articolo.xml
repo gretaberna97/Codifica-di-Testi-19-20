@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Codificare un articolo di una rivista -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+
+        <fileDesc>
+            <titleStmt>
+                <title>Articolo di una rivista: versione elettronica</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Greta Bernardoni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2020-10">Ottobre 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <analytic>
+                        <author>Costanza Cavalli</author>
+                        <title level="a">Le note degli altri:&#60;&#60;musicgate&#62;&#62; nella classica</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">PANORAMA</title>
+                        <imprint>
+                            <publisher>Edizioni PANORAMA</publisher>
+                            <date when="2017-05">Maggio 2017</date>
+                        </imprint>
+                        <biblScope unit="page" from="3" to="118"/>
+                    </monogr>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Codifica di base con esplicitazione di informazioni lessicali, semantiche e strutturali. Conservazione di informazioni di layout</p>
+        </encodingDesc>
+
+        <revisionDesc>
+            <p>Creazione del teiHeader fatta il giorno <date when="2020-10-26">26 Ottobre 2020</date></p>
+            <p>Codifica della prima pagina dell'articolo fatta il giorno <date when="2020-10-26">26 Ottobre 2020</date></p>
+            <p>Codifica della seconda pagina dell'articolo fatta il giorno <date when="2020-10-26">26 Ottobre 2020</date></p>
+        </revisionDesc>
+
+    </teiHeader>
+    <text xml:lang="it">
+
+        <front>
+            <titlePage>
+                <docTitle>Le note degli altri:&#60;&#60;musicgate&#62;&#62; nella classica</docTitle>
+                <docAuthor>Costanza Cavalli</docAuthor>
+                <docImprint>
+                    <date when="2017-05">Maggio 2017</date>
+                </docImprint>
+            </titlePage>
+        </front>
+
+        <body>
+            <pb n="36"/>
+
+            <div type="sezione">
+                <p><hi style="color: yellow">SCENARI_</hi><hi rend="double">CULTURA</hi></p>
+            </div>
+
+            <div>
+                <figure>
+                    <docAuthor>Stefano Carrara</docAuthor>
+                    <figDesc>
+                    Al centro dell'articolo e delle due pagine vi è una elaborazione grafica fatta da <mentioned>Stefano Carrara</mentioned>: vi è rappresentato in 2 riquadri colorati <mentioned>Johannes Brahms</mentioned> in un'elaborazione grafica alla maniera di <mentioned>Andy Warhol</mentioned>.
+                    </figDesc>
+                </figure>
+            </div>
+
+            <div>
+                <head>Le note degli altri:&#60;&#60;musicgate&#62;&#62; nella classica</head>
+                <p rend="bold">Pianisti che &#60;&#60;rubano&#62;&#62; tracce eseguite da autorevoli colleghi e le piazzano nei propri <term subtype="music-term">dischi</term>. La denuncia su <term>Facebook</term> diventa un terremoto. E adesso le crepe si allargano.</p>
+                <figure>
+                    <figDesc>
+                    Vicino al titolo dell'articolo, sulla destra, vi è la sagoma intera a colori ma su sfondo bianco di <mentioned>Luca Ciammarughi</mentioned>
+                    </figDesc>
+                    <head rend="bold">
+                        <persName>Luca Ciammarughi</persName>, <num type="cardinal" value="52">52</num> anni, è il pianista e critico musicale che da denunciato il &#60;&#60;musicgate&#62;&#62;.
+                    </head>
+                </figure>
+                <figure>
+                    <figDesc>
+                    Al di sotto della sagoma ritagliata vi sono dei puntini che coprono 2/3 della pagina: indicano una divisione fra il front e il body dell'articolo.
+                    </figDesc>
+                </figure>
+
+                <cb n="1"/>
+                <p>
+                    <hi rend="triple" style="bold">Q</hi>uello della musica <term subtype="music-term">classica</term> sembrava un mondo dedito a nobili intenti d'arte e
+                    capace solo di <distinct>cavalleresche</distinct> gare di virtuosismo. Ma il <date when="2017-05-05">5 maggio scorso</date> qualcosa si è rotto, quando il <rs type="person">pianista</rs> e
+                    <rs type="person">conduttore radiofonico</rs> di <name type="org">Radio Classica</name><persName>Luca Ciammarughi</persName> ha acceso per la <num type="ordinal" value="1"> prima </num> volta la luce livida del plagio, scatenando
+                    uno scandalo in <term>Rete</term> e nell'<term subtype="music-term">universo musicale</term>.
+                </p>
+                <p>
+                    <persName>Ciammarughi</persName> ha pubblicato su <term>Facebook</term> un <term>video</term> in cui analizza le <term subtype="music-term">tracce audio</term> di <num type="cardinal" value="2">due</num> <term subtype="music-term">cd</term>: l'<rs type="traccia" rend="italic">Intermezzo op.<num type="cardinal" value="117">117</num> n.<num type="cardinal" value="1">1</num></rs>
+                    di <persName>Brahms</persName> interpretato dal <rs type="person">pianista</rs> <nationality>francese</nationality> <persName>Marc Pantillon</persName> (il <term subtype="music-term">disco</term> è del <date when="2005">2005</date>, <term subtype="music-term">etichetta</term> <name>Claves</name>) e lo stesso <term subtype="music-term">brano</term> suonato
+                    dal <rs type="person">pianista</rs> <nationality>cagliaritano</nationality> <persName>Maurizio Moretti</persName> (<date when="2013">2013</date>, <term subtype="music-term">etichetta</term> <name>Inviolata</name>). Sovrapposte, le due <term subtype="music-term">incisioni</term> risultano identiche:
+                    quella di <persName>Moretti</persName> ha un <term subtype="music-term">volume</term> un po' più alto, ma l'<term subtype="music-term">onda sonora</term> coincide con quella di <persName>Pantillon</persName>. <persName>Moretti</persName> sembrerebbe aver
+                    piazzato la <term subtype="music-term">registrazione</term> del <rs type="person">francese</rs> nel proprio <term subtype="music-term">disco</term> come fosse sua.
+                </p>
+                <p>
+                    A sostegno della validità dell'analisi di <persName>Ciammarughi</persName> si è esposto il <rs type="person">musicologo</rs> <nationality>inglese</nationality> <persName>Norman Lebrecht</persName>, che sul seguitissimo
+                    <term subtype="music-term">blog musicale</term> <rs type="blogmusicale" rend="italic">Slipped Disc</rs>, di cui
+                <cb n="2"/> 
+                    è <rs type="person">autore e curatore</rs>, ha fatto sapere di aver ricevuto copia di una <term>mail</term> di scuse da parte dell'<term subtype="music-term">etichetta</term> <name>Inviolata</name>
+                    all'<term subtype="music-term">etichetta</term> <name>Claves</name> e al <rs type="person">pianista</rs> <persName>Pantillon</persName>. In pratica, un'ammissione.
+                </p>
+                <p>
+                    <hi rend="bold">Ma il caso non è isolato. Sempre sul <term>blog</term><rs type="blogmusicale" rend="italic">Slipped Disc</rs></hi>, l'<persName><addName>ingegnere del suono</addName> Alexander Kalashnikov</persName>
+                    rincara la dose: la <term subtype="music-term">registrazione</term> di <persName>Moretti</persName> del <date when="2015">2015</date> delle <rs type="traccia" rend="italic">Stagioni</rs> di <persName>Cajkovskij</persName>, per la prestigiosa
+                    <name type="org">Decca</name>, risulta identica a qulla prodotta da <persName>Kalashnikov</persName> nel <date when="2002">2002</date> per l'<term subtype="music-term">etichetta</term> <name>Intim Musik</name>, con l'esecuzione del <rs type="person">pianista</rs> <nationality>russo</nationality> <persName>Victor
+                    Ryabchikov</persName>. Sempre sul <term>blog</term> di <persName>Lebrecht</persName> si legge che c'è una <num type="ordinal" value="3">terza</num> <term subtype="music-term">registrazione</term> sotto osservazione: il <rs type="traccia" rend="italic">Concerto n.<num type="cardinal" value="2">2</num></rs> di
+                    <persName>Rachmaninov</persName>, pubblicato da <persName>Moretti</persName> nel <date when="2011">2011</date> per <name type="event">Concert Hall</name>, identico a quello suonato da <persName>Mikhail Rudy</persName> per <name type="org">Emi</name>.
+                </p>
+                <p>
+                    Il vizio della scorciatoia sembra aver contagiato più <rs type="person">musicisti</rs>: <persName>Ciammarughi</persName></p>
+            </div>
+
+        </body>
+        <back>
+            <p> 
+                <num type="cardinal" value="36">36</num>
+                <w>PANORAMA | </w>
+                <date when="2017-05-11">18 Maggio 2017</date>
+            </p>
+        </back>
+    </text>
+
+    <text>
+        <body>
+
+            <div>
+                <figure>
+                    <docAuthor>Stefano Carrara</docAuthor>
+                    <figDesc>
+                        Al centro dell'articolo e delle due pagine vi è la elaborazione grafica fatta da <mentioned>Stefano Carrara</mentioned>: vi è rappresentato in 2 riquadri colorati <mentioned>Johannes Brahms</mentioned> in un'elaborazione grafica alla maniera di <mentioned>Andy Warhol</mentioned>.
+                    </figDesc>
+                    <head rend="bold">Il<rs type="person">musicista</rs><persName>Johannes Brahms</persName> in un'elaborazione grafica alla maniera di <persName>Andy Warhol</persName>.</head>
+                </figure>
+            </div>
+
+            <div>
+                <cb n="3"/>
+                <p>
+                    avanza qualche dubbio anche sul <term subtype="music-term">disco</term> <rs type="album" rend="italic"><foreign xml:lang="en">Piano Favorites by <persName>Chopin</persName> e <persName>Liszt</persName></foreign></rs> del <date when="2014">2014</date>, <term subtype="music-term">etichetta</term> <name>Chachra Classics</name> di <persName>Maurizio Mastrini</persName>,
+                    dove la <term subtype="music-term">traccia</term> <rs type="traccia" rend="italic">Op.<num type="cardinal" value="10"> 10</num> n.<num type="cardinal" value="1"> 1</num></rs> degli <rs type="album" rend="italic">Studi</rs> di <persName>Chopin</persName> sarebbe uguale a quella del grande <persName>Andrei Gavrilov</persName> in <term subtype="music-term">disco</term> <name type="org">Emi</name> del <date when="1997">1997</date>.
+                </p>
+                <p>
+                    <hi rend="bold">A questi fatti dobbiamo registrare due reazioni diverse.</hi> Sulle <term>piattaforme</term> che hanno rivelato questo &#60;&#60;musicgate&#62;&#62; è esplosa una baraonda in pochi giorni (più di <num type="cardinal" value="600">600</num> commenti e &#60;&#60;mi piace&#62;&#62;, più di <num type="cardinal" value="100">100</num> <term>condivisioni</term>. Per la <term subtype="music-term">classica</term> sono una enormità).
+                    Al telefono, invece, sono tutti più timidi. 
+                    <q>&#60;&#60;La mia risposta arriverà con i mezzi dovuti nei luoghi appropriati. Il tribunale dell'inquisizione e la caccia alle streghe credevo fossero passati di moda&#62;&#62;</q>, ha scritto <persName>Moretti</persName> sul <term>blog</term> inglese, ma a noi non è possibile rintracciarlo telefonicamente.
+                </p>
+                <p>
+                    Non così <persName>Mastrini</persName>, ma la sua risposta è sorpresa e piena di pause: 
+                    <q>&#60;&#60;Non le saprei dire che cosa è successo, devo verificare. Quello (<name type="person" rend="italic">Gavrilov</name>, ndr) è un genio, non sono io che suono&#62;&#62;</q> ci ha detto.
+                </p>
+                <p>
+                    Difficile ottenere commenti dal <term subtype="music-term">mondo musicale</term>. <persName>Michele Dall'Ongaro</persName>, <roleName>presidente</roleName> dell'<orgName>Accademia nazionale di Santa Cecilia</orgName>, <term>chiosa</term>:
+                    <q>&#60;&#60;<distinct>Sono solo ladri di polli</distinct>&#62;&#62;</q>. <persName>Roberto Prosseda</persName> e <persName>Maurizio Baglini</persName>, non rilasciano dichiarazioni. <persName>Glissa Elisabetta Porrà</persName>, <roleName>direttrice</roleName> del <term subtype="music-term">conservatorio</term> di <placeName>Cagliari</placeName>, dove <persName>Moretti</persName> insegna:
+                    <q>&#60;&#60;Le questioni sul <term>web</term> mi interessano poco&#62;&#62;</q> taglia corto. Abbiamo
+                <cb n="4"/>
+                    interpellato le due più importanti <term subtype="music-term">case discografiche</term> coinvolte, la <orgName>Universal</orgName> e la <orgName>Warner</orgName>: la <num type="ordinal" value="2">prima</num>, titolare del <term subtype="music-term">marchio</term> <name type="org">Decca</name>, è <term subtype="music-term">editrice del disco</term> di <persName>Moretti</persName> con <persName>Cajkovskij</persName>; l'altra, titolare del <term subtype="music-term">marchio</term> <name type="org">Emi</name>, è proprietaria della <term subtype="music-term">registrazione</term> del <rs type="album">Rachmaninov</rs> di <persName>Rudy</persName>. 
+                    <persName>Paolo Tondo</persName>, <rs type="person">manager</rs> di <orgName>Warner</orgName> assicura:
+                    <q>&#60;&#60;Stiamo chiarendo con <persName>Moretti</persName>.</q>
+                </p>
+                <p>
+                    <q>&#60;&#60;Abbiamo chiesto ai negozi di non vendere il <term subtype="music-term">disco</term>&#62;&#62;</q>. 
+                    Cosa riuscita a metà: nei negozi non c'è più, ma on line sì. <persName>Mirko Gratton</persName>, <rs type="person">manager</rs> di <orgName>Universal</orgName>, ci scrive via <term>mail</term> che hanno ritirato il <term subtype="music-term">disco</term>, ma non rilascia <term>interviste</term>. Minimizza invece <persName>Filippo Michelangeli</persName>, <roleName>direttore</roleName> di <name rend="italic">Suonare News</name>, <term>rivista</term> che nel numero in edicola
+                    ha un'ampia <term>intervista</term> proprio a <persName>Moretti</persName>. Per lui, <q>&#60;&#60;il <term subtype="music-term">disco</term> con <persName>Caijkovskij</persName> (<hi rend="italic">quello identico al precedente di <persName>Ryabchikov</persName></hi>, ndr) è bellissimo, <persName>Moretti</persName> non ci ha guadagnato nulla e dunque finisce qui&#62;&#62;</q>.
+                </p>
+                <p>
+                    <hi rend="bold">In allarme sono però i <rs type="person">pianisti</rs> <persName>Nazareno Carusi</persName></hi> e <persName>Davide Cabassi</persName>.
+                    <q>&#60;&#60;E' una <distinct>storiaccia</distinct> che va chiarita al più presto per evitare al <term subtype="music-term">mondo musicale</term> il torto di veder tralasciato in pregiudizio collettivo il lavoro di artisti e case discografiche, comprese quelle coinvolte&#62;&#62;</q> dice Nazzareno Carusi.
+                    Mentre per Davide Cabassi è <q>&#60;&#60;una vicenda sconcertante che, se venisse confermata, non può e non deve sporcare il lavoro di tanti <rs type="person">musicisti</rs> che lavorano con il <term subtype="music-term">marchio</term> storico&#62;&#62;</q>.
+                </p>
+                <p>
+                    <term>Icastico</term> infine <persName>Marc Pantillon</persName>, il <rs type="person">pianista</rs> &#60;&#60;copiato&#62;&#62;, che dice:
+                    <q>&#60;&#60;Penso che questa notizia sia una punizione sufficiente per chi avesse avuto la disonestà, ma anche il buon senso, di derubarmi!&#62;&#62;.</q>
+                </p>
+                <p rend="italic">(<persName>Costanza Cavalli</persName>)</p>
+                <p>
+                    &#169; RIPRODUZIONE RISERVATA
+                </p>
+            </div>
+            <div>
+                <figure>
+                    <figDesc>
+                    A cavallo tra la terza e la quarta colonna vi è in piccolo la fotografia a mezzo busto e a colori di <mentioned>Maurizio Moretti</mentioned>.
+                    </figDesc>
+                    <head rend="bold">
+                        <persName>Maurizio Moretti</persName>, il <rs type="person">pianista</rs> sospettato di aver inserito nei suoi <term subtype="music-term">dischi</term> <term subtype="music-term">tracce</term> eseguite dai altri <rs type="person">musicisti</rs>.
+                    </head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <p> 
+                <num type="cardinal" value="37">37</num>
+                <date when="2017-05-11">18 Maggio 2017</date>
+                <w>PANORAMA | </w>
+            </p>
+        </back>
+    </text>
+</TEI>

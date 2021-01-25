@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Codificare una cartolina -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Una cartolina da Castelnuovo Garfagnana</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Greta Bernardoni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2020-10">Ottobre 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ortensia</author>
+                    <date when="1970-03-20">20/3/70</date>
+                    <publisher>Cecami</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Codifica di base con esplicitazione di informazioni lessicali, semantiche e strutturali. Conservazione di informazioni di layout</p>
+        </encodingDesc>
+        <revisionDesc>
+            <p>Creazione del teiHeader fatta il giorno <date when="2020-10-24">24 Ottobre 2020</date></p>
+            <p>Codifica del retro della cartolina fatta il giorno <date when="2020-10-24">24 Ottobre 2020</date></p>
+            <p>Codifica del verso della cartolina fatta il giorno <date when="2020-10-24">24 Ottobre 2020</date></p>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <body>
+            <div type="recto">
+                <figure>
+                    <figDesc>Fotografia dai colori caldi raffiguranti tre animali in primo piano: vicino ad un camino sta posa un pastore tedesco, di fronte al quale due gatti rossi di pochi mesi si trovano in bilico su un panchetto.</figDesc>
+                </figure>
+            </div>
+            <div type="verso">
+                <div type="message">
+                    <date when="1970-03-20">20/3/70</date>
+                    <p>Saluti e baci dalla <rs type="person">tua nonna</rs></p>
+                    <signed>Ortensia</signed>
+                </div>
+                <div type="generalInformation">
+                    <p style="font-stily: italic">Stampata in Italia - <foreign xml:lang="fr">Importé D'Italie</foreign> - <foreign xml:lang="en">Printed in Italy</foreign></p>
+                    <figure>
+                        <figDesc>
+                        Piccolo ovale con all'interno scritto il nome dell'azienda che ha stampato la cartolina:<mentioned>Cecami</mentioned>
+                        </figDesc>
+                    </figure>
+                    <p><num type="cardinal" value="809">809</num></p>
+                    <p>Riproduzione vietata</p>
+                </div>
+                <div type="destination">
+                    <ab>
+                        <stamp type="postmark">
+                        Elemento circolare all'interno del quale, seguendo la linea circolare, vi sono scritte le seguenti parole:
+                            <mentioned>
+                                <num type="cardinal" value="55032">55032</num>Castelnuovo Garfagnana<date when="1970-03-21">21.3.1970</date>
+                            </mentioned>
+                            <figure>
+                                <figDesc>
+                                Si susseguono alle parole due piccole trombe (strumento musicale)
+                                </figDesc>
+                            </figure>
+                        </stamp>
+                        <stamp type="postage">
+                        Francobollo rettangolare color rosa/viola posto in verticale con al centro una moneta raffigurante il profilo di una donna. In alto a destra è riportato il numero
+                            <mentioned><num>25</num></mentioned>;
+                        in alto a sinistra la parola
+                            <mentioned>Lire</mentioned>;
+                        in basso sotto la moneta in piccolo
+                            <mentioned>POSTE</mentioned>;
+                        ed in basso al centro sotto la scritta precedente
+                            <mentioned>REPUBBLICA ITALIANA</mentioned>;
+                        </stamp>
+                    </ab>
+                    <address>
+                        <persName>Boschi Alessandro</persName>
+                        <addrLine><num type="cardinal" value="56031">56031</num> Bientina</addrLine>
+                        <addrLine rend="underline">PISA</addrLine>
+                    </address>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Scrivere un documento XML con due gerarchie, la prima codificata in modo non corretto e la seconda codificata inserendo gli elementi vuoti.
+-->
+<text>
+    <titolo>I bambini di Cold Rock: trama e spiegazione</titolo>
+    <intestazione> I </intestazione>
+
+    <pagina n="1"/>
+        <p>
+            Chi rapisce i bambini di Cold Rock? A tutti gli effetti, 
+            il film con Jessica Biel è un thriller [...]
+        </p>
+        <p>
+            Ma la pellicola diretta da Pascal Laugier ha (anche) ambizioni 
+            di denun-<pagina n="2"/>
+            cia sociale e porta con sé una serie di domande non banali [...]
+        </p>
+</text>

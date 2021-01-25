@@ -23,8 +23,8 @@ esercizio2.xml:13: parser error : Opening and ending tag mismatch: body line 9 a
 <!--
     VERSIONE CORRETTA CODICE
 <body>
-  <text>
-  ERRORE
-  </text>
+<text>
+ERRORE
+</text>
 </body>
 -->

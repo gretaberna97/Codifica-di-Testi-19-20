@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Marcare un testo plain text di circa 3000 caratteri a piacere -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>La coscienza di Zeno: versione elettronica</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Greta Bernardoni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2020-10">Ottobre 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+                    <monogr>
+                        <title>La coscienza di Zeno</title>
+                        <author>Italo Svevo</author>
+                        <editor>Mario Lunetta</editor>
+                        <publisher>Newton Compton Editori</publisher>
+                        <pubPlace>Roma</pubPlace>
+                        <date when="2019-04">Aprile 2019</date>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Codifica di base con esplicitazione di informazioni lessicali, semantiche e strutturali. Conservazione di informazioni di layout</p>
+        </encodingDesc>
+        <revisionDesc>
+            <p>Creazione del teiHeader fatta il giorno <date when="2020-10-23">23 Ottobre 2020</date></p>
+            <p>Creazione del body fatta il giorno <date when="2020-10-23">23 Ottobre 2020</date></p>
+            <p>Aggiunta di alcuni attributi fatta il giorno <date when="2020-10-24">24 Ottobre 2020</date></p>
+            <p>Modifiche per perfezionare la codifica fatte il giorno <date when="2020-10-24">24 Ottobre 2020</date></p>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <front>
+            <titlePage>
+                <docAuthor>Italo Svevo</docAuthor>
+                <docTitle>La coscienza di Zeno</docTitle>
+                <docEdition>Edizione integrale</docEdition>
+                <docImprint>
+                    <publisher>Newton Compton editori</publisher>
+                    <pubPlace>Roma</pubPlace>
+                    <date when="2019-04">Aprile 2019</date>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div type="book">
+                <div type="chapter" n="3">
+                    <pb n="40" />
+                    <head>Il fumo</head>
+                    <div type="section">
+                        <p>Il <rs type="person">dottore</rs> al quale ne parlai mi disse d’iniziare il mio lavoro con un’analisi storica della mia propensione al fumo:</p>
+                        <p><q>- Scriva! Scriva! Vedrà come arriverà a vedersi intero.</q></p>
+                        <p>Credo che del fumo posso scrivere qui al mio tavolo senz’andar a sognare su quella poltrona. Non so come cominciare e invoco l’assistenza delle sigarette tutte tanto somiglianti a quella che ho in mano.</p>
+                        <p>Oggi scopro subito qualche cosa che più non ricordavo. Le prime sigarette ch’io fumai non esistono più in commercio. Intorno al <date when="1970">’70</date> se ne avevano in <country>Austria</country> di quelle che venivano vendute in scatoline di cartone munite del marchio dell’aquila bicipite. Ecco: attorno a una di quelle scatole s’aggruppano subito varie persone con qualche loro tratto, sufficiente per suggerirmene il nome, non bastevole però a commovermi per l’impensato incontro. Tento di ottenere di più e vado alla poltrona: le persone sbiadiscono e al loro posto si mettono dei buffoni che mi deridono. Ritorno sconfortato al tavolo.</p>
+                        <p>Una delle figure, dalla voce un po’ roca, era <persName>Giuseppe</persName>, un <rs type="person">giovinetto</rs> della stessa mia età, e l’altra, <rs type="person">mio fratello</rs>, di <num type="cardinal" value="1">un</num> anno di me più giovine e morto tanti anni or sono. Pare che <persName>Giuseppe</persName> ricevesse molto denaro dal <rs type="person">padre suo</rs> e ci regalasse di quelle sigarette. Ma sono certo che ne offriva di più a <rs type="person">mio fratello</rs> che a me. Donde la necessità in cui mi trovai di procurarmene da me delle altre. Così avvenne che rubai. D’estate <rs type="person">mio padre</rs> abbandonava su una sedia nel tinello il suo panciotto nel cui taschino si trovavano sempre degli spiccioli: mi procuravo i <num type="cardinal" value="10">dieci</num> soldi occorrenti per acquistare la preziosa scatoletta e fumavo una dopo l’altra le <num type="cardinal" value="10">dieci</num> sigarette che conteneva, per non conservare a lungo il compromettente frutto del furto.</p>
+                        <p>Tutto ciò giaceva nella mia coscienza a portata di mano. Risorge solo ora perché non sapevo prima che potesse avere importanza. Ecco che ho registrata l’origine della sozza abitudine e (chissà?) forse ne sono già guarito. Perciò, per provare, accendo un’ultima sigaretta e forse la getterò via subito, disgustato.</p>
+                        <p>Poi ricordo che un giorno <rs type="person">mio padre</rs> mi sorprese col suo panciotto in mano. Io, con una sfacciataggine che ora non avrei e che ancora adesso mi disgusta (chissà che tale disgusto non abbia una grande importanza nella mia cura) gli dissi che m’era venuta la curiosità di contarne <pb/> i bottoni. <rs type="person">Mio padre</rs> rise delle mie disposizioni alla matematica o alla sartoria e non s’avvide che avevo le dita nel taschino del suo panciotto. A mio onore posso dire che bastò quel riso rivolto alla mia innocenza quand’essa non esisteva più, per impedirmi per sempre di rubare. Cioè... rubai ancora, ma senza saperlo. <rs type="person">Mio padre</rs> lasciava per la casa dei sigari virginia fumati a mezzo, in bilico su tavoli e armadi. Io credevo fosse il suo modo di gettarli via e credevo anche di sapere che la nostra vecchia <roleName>fantesca</roleName>, <persName>Catina</persName>, li buttasse via. Andavo a fumarli di nascosto. Già all’atto d’impadronirmene venivo pervaso da un brivido di ribrezzo sapendo quale malessere m’avrebbero procurato. Poi li fumavo finché la mia fronte non si fosse coperta di sudori freddi e il mio stomaco si contorcesse. Non si dirà che nella mia infanzia io mancassi di energia.</p>
+                        <p>So perfettamente come <rs type="person">mio padre</rs> mi guarì anche di quest’abitudine. Un giorno d’estate ero ritornato a casa da un’escursione scolastica, stanco e bagnato di sudore. <rs type="person">Mia madre</rs> m’aveva aiutato a spogliarmi e, avvoltomi in un accappatoio, m’aveva messo a dormire su un sofà sul quale essa stessa sedette occupata a certo lavoro di cucito. Ero prossimo al sonno, ma avevo gli occhi tuttavia pieni di sole e tardavo a perdere i sensi. La dolcezza che in quell’età s’accompagna al riposo dopo una grande stanchezza, m’è evidente come un’immagine a sé, tanto evidente come se fossi adesso là accanto a quel caro corpo che più non esiste. [...]</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

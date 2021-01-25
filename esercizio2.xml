@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+    
+    Scrivere e fare il check di un xml non opportunamente annidato
+-->
+<body>
+<text>
+ERRORE  
+</body>
+</text>
+<!--
+    OUTPUT ERRORE
+esercizio2.xml:12: parser error : Opening and ending tag mismatch: text line 10 and body
+</body>
+       ^
+esercizio2.xml:13: parser error : Opening and ending tag mismatch: body line 9 and text
+</text>
+       ^
+-->
+<!--
+    VERSIONE CORRETTA CODICE
+<body>
+  <text>
+  ERRORE
+  </text>
+</body>
+-->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Greta Bernardoni
+    matricola: 564826
+    corso: codifica di testi 19-20
+
+    Costruire un foglio di stile XSLT con alcune regole di trasformazione e lanciare il comando xsltproc da terminale -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Divina Commedia: versione elettronica</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage>
+				<docAuthor>Dante Alighieri</docAuthor>
+				<docTitle>La Divina Commedia</docTitle>
+				<docImprint>
+					<publisher>Mondadori</publisher>
+					<date>1988</date>
+				</docImprint>
+			</titlePage>
+		</front>
+		<body>
+			<div>
+				<p>
+				Ahi quanto a dir qual era è cosa dura,
+                esta selva selvaggia e aspra e forte
+                che nel pensier rinova la paura!
+				</p>
+			</div>
+		</body>
+		<back>
+		</back>
+	</text>
+</TEI>
